@@ -1,0 +1,8 @@
+Superset of JavaScript
+Strictly typed and give compiled error
+compiled to JavaScript
+Writing JS in precise manner and less error prone.
+
+What Typescript does ?
+  Static Checking through IDE.
+  It is a development tool not production code. It is for writing better code.
