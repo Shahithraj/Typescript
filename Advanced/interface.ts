@@ -41,11 +41,15 @@ const admin : Admin = {
     role:"Admin",
 }
 
-
-
 console.log(myUser.getCoupon(myUser.name));
 
-export {}
+
+interface A { a: number }
+interface B extends A { b: number }
+
+// type: flexible, composable
+type A = { a: number }
+type B = A & { b: number }
 
 
 // interface vs type 
@@ -53,3 +57,6 @@ export {}
 1. Cannot duplicate type but interface can.
 2. Interface can extends but type can using &.
 3. type can have primitive type
+
+
+export {}
