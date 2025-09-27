@@ -32,7 +32,7 @@ const getSearchList = <T>(products: T[]): T => {
   return products[index];
 };
 
-function getProperty<Type, Key extends keyof Type>(obj: Type, key: Key) {
+function getProperty<Type extends object, Key extends keyof Type>(obj: Type, key: Key) {
   return obj[key];
 }
 
