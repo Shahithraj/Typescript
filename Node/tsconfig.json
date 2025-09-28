@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "esModuleInterop": true, // import statement
+    "skipLibCheck": true,
+    "module": "NodeNext",
+    "outDir": "dist",
+    "strict": true,
+    "lib": ["es2022","es2015"],
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+  }
+}
